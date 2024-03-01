@@ -59,7 +59,8 @@ df.head()
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161039](https://github.com/Haarish-23013963/exno1/assets/147139700/08999790-3655-4ba3-8ecd-997da71d7f56)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/98f7f841-be11-464d-b625-1fcf1618ecfd)
+
 
 </td>
 </tr>
@@ -75,7 +76,8 @@ df.tail()
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161129](https://github.com/Haarish-23013963/exno1/assets/147139700/eb2150b3-8d47-482c-9f9d-0a4bc1b563a9)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/422bc98a-a6e5-46d8-9e19-80dbeabfc55a)
+
 
 </td>
 </tr>
@@ -91,7 +93,8 @@ df.info()
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161213](https://github.com/Haarish-23013963/exno1/assets/147139700/0f350c7d-31e8-4bb8-9a8e-1956c61f3db1)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/a381ed1c-39c1-4f0a-a9fe-3069e254b58a)
+
 
 </td>
 </tr>
@@ -107,7 +110,8 @@ df.describe()
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161243](https://github.com/Haarish-23013963/exno1/assets/147139700/53141d5a-9a06-42ee-aa18-786406346d85)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/455eae02-5360-4484-9b83-8253f47b6a85)
+
 
 </td>
 </tr>
@@ -122,8 +126,8 @@ df.shape
   <td>
               
 #### OUTPUT:
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/2ac271fa-6b88-4a3d-922d-225c8c35529d)
 
-![Screenshot 2024-02-23 161318](https://github.com/Haarish-23013963/exno1/assets/147139700/c62a35d3-0873-4b03-8981-8c5301d18f3b)
 
 </td>
 </tr>
@@ -139,7 +143,8 @@ df.isnull()
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161403](https://github.com/Haarish-23013963/exno1/assets/147139700/c0ef159f-832d-460e-a8cb-57dc20c02f07)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/7784a32c-3f69-4ac6-bb63-569e96cf42ba)
+
 
 </td>
 </tr>
@@ -155,7 +160,8 @@ df.dropna(axis=0)
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161436](https://github.com/Haarish-23013963/exno1/assets/147139700/61b3d133-a7dc-4247-b3af-cdd8e98df867)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/12873915-7b04-4f86-a0e6-7e4468ea47a6)
+
 
 </td>
 </tr>
@@ -173,7 +179,8 @@ df.fillna(0)
               
 #### OUTPUT:
 
-![Screenshot 2024-02-23 161539](https://github.com/Haarish-23013963/exno1/assets/147139700/8353f3c6-686a-485d-8316-71c2d645db72)
+![image](https://github.com/Sanjay22006832/exno1/assets/119830477/5b6b2f3a-76db-4ec7-8896-f0976dab82f0)
+
 
 </td>
 </tr>
