@@ -20,174 +20,97 @@ STEP 5: Remove outliers using IQR
 
 STEP 6: Use zscore of to remove outliers
 
-# Coding and Output
-
-```py
-# Developed By: Sanjay M
-# Register Number: 212222240090
+# Code and Output
 ```
-<table>
-  <tr>
-    <td width=50%>
+NAME : DEEPAK RAJ S
+REG NO : 212222240023
+```
+### 1. Read and display DataFrame
 
-
-### 1) Read and display DataFrame
-```Python
+```
 import pandas as pd
-df=pd.read_csv('/content/SAMPLEIDS.csv')
-df
+df = pd.read_csv("SAMPLEIDS.csv")
+print(df)
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/98150305-89b4-4f9d-8f8d-e94269d8e8e4)
+### 2. Display head
 
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/12f89e79-8528-4396-a300-dac097c88c6b)
-
-)
-</td>
-</tr>
-<tr>
-  <td width=50%>
-              
-### 2) Display head
-```Python
-df.head()
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/98f7f841-be11-464d-b625-1fcf1618ecfd)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-### 3) Display tail
-```Python
-df.tail()
+df.head(5)
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/422bc98a-a6e5-46d8-9e19-80dbeabfc55a)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-### 4) Info of datafram
-```Python
-df.info()
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/ad2e1d6f-280e-417a-9e48-4e6df855a350)
+### 3. Describe about the dataframe  
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/a381ed1c-39c1-4f0a-a9fe-3069e254b58a)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-### 5) Describe about the dataframe
-```Python
 df.describe()
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/455eae02-5360-4484-9b83-8253f47b6a85)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-### 6) Shape of the datafram
-```Python
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/b6663326-b20b-42f7-999b-db4438b79f41)
+### 4. Info of datafram
+```
+df.info()
+```
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/e2ed3581-ea89-4f9d-ad1b-229b5afd27ca)
+### 5. Display tail
+```
+df.tail()
+```
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/81a49209-a138-40a9-836e-f2571d6cf4b0)
+### 6. Shape of the datafram
+```
 df.shape
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/2ac271fa-6b88-4a3d-922d-225c8c35529d)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-### 7) Checking tha NUll values
-```Python
-df.isnull()
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/1f64b9b6-76b2-4764-a3f4-e2182c1d2ffc)
+### 7. Checking tha Null values
+``` 
+df.isnull().sum()
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/7784a32c-3f69-4ac6-bb63-569e96cf42ba)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-### 8) Drop the Null values
-```Python
-df.dropna(axis=0)
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/2040ff5d-0744-4661-b248-fe62e996c836)
+### 8. FIll the Null values
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
-
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/12873915-7b04-4f86-a0e6-7e4468ea47a6)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
-
-
-
-### 9) Fill the Null values
-```Python
-df.fillna(0)
+df.fillna(value=10)  
 ```
-  </td>
-  <td>
-              
-#### OUTPUT:
+ ![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/42f9b342-5b77-479c-97c8-25d0e2d0b162)
+### 9. Fill value to null values
+```
+df.fillna(method='ffill')
+```
 
-![image](https://github.com/Sanjay22006832/exno1/assets/119830477/5b6b2f3a-76db-4ec7-8896-f0976dab82f0)
-
-
-</td>
-</tr>
-<tr>
-  <td width=50%>
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/1ad10c50-0e75-4660-95bb-e2f9f5f67d80)
 
 
+## IQR METHOD:
 
-# Result
-The data cleaning has beeen done successfully.
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/8ddf662f-4841-4d79-bfd6-a8a6cfc845ea)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/417d4ef4-fb53-4c46-9486-b152c898490c)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/123d5d45-acf7-40ca-a976-e7425539de05)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/10893ace-891f-4f41-b6e8-54df22531525)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/5aadd65e-5a98-4f34-abe9-54a7fdf2353d)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/43427525-4ffc-4886-a27f-b3c89c2ea0f3)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/e5476b21-c662-4f1c-ad79-9f0a08d768c5)
+
+
+## Z-SCORE METHOD:
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/e4cf2d42-f7b4-49dd-a80e-366a48786e5d)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/02b4980e-29fc-4939-9362-c68531cacbd3)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/3b6744c4-3f4a-488f-baa3-d57fe76b4683)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/dd967c3b-d963-49da-83f5-177a8ff999d5)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/050e8baa-2b68-4c5e-9270-80b098b8ecb7)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/2f869bfb-1cf8-41f4-ba05-6a8be2315538)
+
+![image](https://github.com/Ashwinkumar-03/exno1/assets/118663725/573946b5-f540-4d27-8497-2666fefb8917)
+
+
+# Result:
+The data clearning has beeen done successfully.
+
