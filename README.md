@@ -22,8 +22,8 @@ STEP 6: Use zscore of to remove outliers
 
 # Code and Output
 ```
-NAME : DEEPAK RAJ S
-REG NO : 212222240023
+NAME : M Sanjay
+REG NO : 212222240090
 ```
 ### 1. Read and display DataFrame
 
